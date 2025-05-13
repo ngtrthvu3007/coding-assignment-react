@@ -1,2 +1,127 @@
 .tickets {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.tickets h2 {
+  margin-bottom: 20px;
+}
+.tickets div {
+  margin: 20px 0px;
+}
+
+.tickets input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.tickets button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: stretch;
+  margin-top: 8px;
+}
+
+.tickets button:hover {
+  background-color: #0056b3;
+}
+
+.tickets select {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.tickets ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.tickets li {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tickets li div {
+  margin-top: 8px;
+}
+
+.tickets span {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.ticket-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.ticket-link:hover {
+  text-decoration: underline;
+}
+
+.ticket-details {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.ticket-details h2 {
+  margin-bottom: 20px;
+}
+
+.ticket-details p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.ticket-details button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ticket-details button:hover {
+  background-color: #0056b3;
+}
+
+.ticket-details select {
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
 }
